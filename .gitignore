@@ -1,0 +1,43 @@
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+
+# Build directories
+build/
+Build/
+debug/
+Debug/
+release/
+Release/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+install_manifest.txt
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+
+# Generated dependencies and profiling files
+*.d
+*.gcda
+*.gcno
+*.gcov
